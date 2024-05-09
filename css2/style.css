@@ -1,0 +1,459 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3E3D3;
+}
+
+nav {
+    background-color: #BE984A;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 4px 0;
+    transition: all;
+    transition-duration: 0.5s;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);  
+
+}
+
+.logo {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: #3E2B0B;
+    font-family: fantasy;
+    text-decoration: none;
+}
+.logo span {
+    color: #F3E3D3;
+    
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.callus {
+    background-color: #3E2B0B;
+    padding: 10px;
+    border-radius: 10px;
+}
+.callus:hover {
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.title {
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 2px 3px 5px #3E2B0B;
+}
+
+.title h4 {
+    padding: 10px;
+    color: #949494;
+    text-shadow: none;
+}
+
+.main-content {
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    
+}
+.core-content {
+   justify-content: space-between;
+   grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+   display: flex
+}
+.form-content {
+    background-color: #3E2B0B;
+    display: flex;
+    margin-right: 5%;
+    margin-top: 150px;
+    height: 550px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px 0 black;
+    
+}
+
+.form-content header h3 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.form-content header h5 {
+    color: #949494;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.form {
+    padding-top: 90px;
+    padding-left: 20px;
+
+}
+.form label {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 3px 1px black;
+}
+.form input {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    color: #949494;
+    border-color: #949494;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 black;
+}
+
+.form2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    
+
+}
+.form2 label {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 3px 1px black;
+}
+.form2 input {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    color: #949494;
+    border-color: #949494;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 black;
+}
+.form3 {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.form3 label {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 3px 1px black;
+}
+
+.form3 select {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    color: #949494;
+    border-color: #949494;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 black;
+}
+
+.btn-send {
+    padding-top: 33px;
+    padding-left: 68px;
+}
+.btn-send button {
+    background-color: #BE984A;
+    color: #F3E3D3;
+    height: 35px;
+    width: 170px;
+    border: none;
+    box-shadow: 0 2px 5px 0 black;
+    
+
+}
+
+.image-content {
+background-color: #3E2B0B;
+padding-right: 1100px;
+margin-top: 150px;
+margin-left: 5%;
+margin-bottom: 5%;
+border-radius: 10px;
+box-shadow: 0px 2px 20px 0 black;
+}
+
+.slogan h3 i {
+    padding-left: 450px;
+    padding-top: 100px;
+    
+}
+
+.icon-name {
+    display: flex;
+    justify-content: center;
+    margin-right: 560px;
+}
+.icon-name img {
+    border: none;
+    border-radius: 50%;
+    margin-right: 35px;
+    height: 40px;
+    width: 40px;
+
+    
+}
+
+    
+
+ .line {
+    background-color: #BE984A;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 black;
+ }
+
+ .line section h1 {
+    font-size: 50px;
+    font-weight: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 3px 5px #3E2B0B;
+    color: #3E2B0B;
+    
+ }
+ 
+ .gray-line {
+    background-color: #949494;
+    width: 600px;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px; 
+ }
+ .benefit h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding-top: 35px;
+    padding-left: 480px;
+ }
+ 
+ .shibuya img {
+    width: 400px;
+    height: 400px;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0 black;
+    
+
+ }
+
+ .paris img {
+    width: 400px;
+    height: 400px;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0 black;
+ } 
+ .swiss img {
+    width: 400px;
+    height: 400px;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0 black;
+ }
+
+ .feature {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    position: relative;
+
+    
+ }
+ .shibuya h2 {
+    position: relative;
+    color: #F3E3D3;
+    bottom: 200px;
+    left: 200px;
+ }
+ .caption-benefit {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+ }
+ .text1 h2 {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    
+ }
+ .text1 p {
+    position: absolute;
+    top: 300px;
+    left: 197px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ .text2 h2 {
+    position: absolute;
+    top: 200px;
+    left: 820px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+ }
+.text2 p {
+    position: absolute;
+    top: 300px;
+    left: 728px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.text3 p {
+    position: absolute;
+    top: 300px;
+    left: 1260px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+ .text3 h2 {
+    position: absolute;
+    top: 200px;
+    left: 1340px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+ }
+
+ .text1 p span {
+    font-size: large;
+ }
+
+ .feature {
+    text-align: center;
+ }
+
+ .destination-list1 {
+    display: flex;
+    border: none;
+    list-style-type: none;
+    padding-top: 70px;
+    justify-content: center;
+    gap:17rem;
+    text-align: center;
+ }
+ .destination-list2 {
+    display: flex;
+    border: none;
+    list-style-type: none;
+    padding-top: 70px;
+    justify-content: center;
+    gap:17rem;
+    text-align: center;
+ }
+
+ .bali img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 black;  
+ }
+
+ .japan img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 black;
+   
+ }
+
+ .singapore img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 black;
+    
+ }
+
+ .call-us {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ }
+ .call-us p {
+    padding-top: 30px;
+ }
+ .btn-callus {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ }
+
+ .btn-callus button {
+    background-color: #3E2B0B;
+    padding: 10px 70px;
+    color: #F3E3D3;
+    border: none;
+    box-shadow: 0 2px 5px 0 black;
+ }
+
+ .footer {
+    text-align: center;
+    justify-content: center;
+    background-color: #BE984A;
+    box-shadow: 2px 2px 5px 2px black;
+ }
+.image-content {
+     height: 500px;
+     width: 10px
+}
+
+.slider img {
+   padding: 90px 300px;
+   border: none;
+
+}
+
+#Home {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  
